@@ -188,8 +188,8 @@ body {
   clear: both;
   padding: 8px;
   position: relative;
-  margin: 8px 0;
-  max-width: 85%;
+  margin: 4px 0;
+  max-width: 90%;
   word-wrap: break-word;
   z-index: -1;
   display: flex;
@@ -199,8 +199,9 @@ body {
 }
 
 .message .title {
-  line-height: 13px;
-  font-size: 11px;
+  line-height: 12px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .message .title.pink {
@@ -237,6 +238,23 @@ body {
 
 .message .title.red {
   color: #C3532D;
+}
+
+.message .sponsors {
+  display: flex;
+  flex-direction: column;
+}
+
+.message .sponsor {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  padding-left: 8px;
+  padding-bottom: 4px;
+}
+
+.message .sponsor img {
+  margin-left: 8px;
 }
 
 .message:after {
@@ -302,7 +320,7 @@ body {
 }
 
 .message:first-child {
-  margin: 16px 0 8px;
+  margin: 10px 0 4px;
 }
 
 .message.received {
