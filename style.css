@@ -100,11 +100,11 @@ body {
 }
 
 .user-bar .actions.more {
-  margin: 0 12px 0 32px;
+  margin: 0 12px 0 20px;
 }
 
 .user-bar .actions.attachment {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 18px;
 }
 
 .user-bar .actions.attachment i {
@@ -133,7 +133,7 @@ body {
   margin: 0 0 0 8px;
   overflow: hidden;
   white-space: nowrap;
-  width: 110px;
+  width: 120px;
 }
 
 .user-bar .status {
