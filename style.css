@@ -186,14 +186,60 @@ body {
 .message {
   color: #000;
   clear: both;
-  line-height: 18px;
-  font-size: 15px;
   padding: 8px;
   position: relative;
   margin: 8px 0;
   max-width: 85%;
   word-wrap: break-word;
   z-index: -1;
+  display: flex;
+  flex-direction: row;
+}
+
+.message .title {
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.message .title.pink {
+  color: #D58FE7;
+}
+
+.message .title.teal {
+  color: #53C3B6;
+}
+
+.message .title.beige {
+  color: #BE9681;
+}
+
+.message .title.light-blue {
+  color: #9FB4E9;
+}
+
+.message .title.purple {
+  color: #A594F1;
+}
+
+.message .title.blue {
+  color: #5CA5EE;
+}
+
+.message .title.green {
+  color: #0FCE9C;
+}
+
+.message .title.yellow {
+  color: #F8BD4B;
+}
+
+.message .title.red {
+  color: #C3532D;
+}
+
+.message .body {
+  line-height: 18px;
+  font-size: 15px;
 }
 
 .message:after {
@@ -210,6 +256,8 @@ body {
   padding: 0 0 0 7px;
   position: relative;
   bottom: -4px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .metadata .time {
