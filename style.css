@@ -194,11 +194,13 @@ body {
   z-index: -1;
   display: flex;
   flex-direction: row;
+  line-height: 17px;
+  font-size: 14px;
 }
 
 .message .title {
-  line-height: 15px;
-  font-size: 12px;
+  line-height: 13px;
+  font-size: 11px;
 }
 
 .message .title.pink {
@@ -235,11 +237,6 @@ body {
 
 .message .title.red {
   color: #C3532D;
-}
-
-.message .body {
-  line-height: 18px;
-  font-size: 15px;
 }
 
 .message:after {
