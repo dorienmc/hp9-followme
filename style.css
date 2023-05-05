@@ -257,6 +257,15 @@ body {
   margin-left: 8px;
 }
 
+.message .people {
+  display: flex;
+  flex-direction: column;
+}
+
+.message .people .partij {
+  font-weight: bold;
+}
+
 .message:after {
   position: absolute;
   content: "";
